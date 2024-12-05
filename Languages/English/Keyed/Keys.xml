@@ -2,5 +2,5 @@
 <LanguageData>
     <YouCantEatAtTable>You Can't Eat At Table!</YouCantEatAtTable>
     <CanSlavesAndPrisonersEatAtTable>Can slaves and prisoners eat at table?</CanSlavesAndPrisonersEatAtTable>
-    <Explains>0: Yes   1: Depends on his ideology   2(and other values): No</Explains>
+    <Explains>Left: Yes     Middle: Depend on their ideology     Right: No</Explains>
 </LanguageData>
