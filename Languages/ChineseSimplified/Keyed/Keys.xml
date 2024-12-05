@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <YouCantEatAtTable>不准上桌吃饭！</YouCantEatAtTable>
+    <CanSlavesAndPrisonersEatAtTable>奴隶和囚犯能上桌吃饭吗？</CanSlavesAndPrisonersEatAtTable>
+    <Explains>0：能   1：由其文化决定   2（其他值）：不能  </Explains>
+</LanguageData>

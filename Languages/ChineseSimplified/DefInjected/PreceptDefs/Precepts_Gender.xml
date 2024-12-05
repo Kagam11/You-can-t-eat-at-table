@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <YouCantEatAtTable_Gender_Male.label>男性</YouCantEatAtTable_Gender_Male.label>
+    <YouCantEatAtTable_Gender_Male.description>允许男性殖民者在餐桌上进食。</YouCantEatAtTable_Gender_Male.description>
+
+    <YouCantEatAtTable_Gender_Female.label>女性</YouCantEatAtTable_Gender_Female.label>
+    <YouCantEatAtTable_Gender_Female.description>允许女性殖民者在餐桌上进食。</YouCantEatAtTable_Gender_Female.description>
+</LanguageData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+	<PreceptDef>
+		<defName>YouCantEatAtTable_Role_Leader</defName>
+		<issue>YouCantEatAtTable_Issue_Role</issue>
+		<label>leader</label>
+		<description>Allow leader eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>true</enabledForNPCFactions>
+		<displayOrderInIssue>90</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+	<PreceptDef>
+		<defName>YouCantEatAtTable_Role_LeaderAndMoralGuide</defName>
+		<issue>YouCantEatAtTable_Issue_Role</issue>
+		<label>leader and moral guide</label>
+		<description>Allow leader and moral guide eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>true</enabledForNPCFactions>
+		<displayOrderInIssue>80</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+    <PreceptDef>
+		<defName>YouCantEatAtTable_Role_Roles</defName>
+		<issue>YouCantEatAtTable_Issue_Role</issue>
+		<label>roles</label>
+		<description>Allow colonists with role eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>true</enabledForNPCFactions>
+		<displayOrderInIssue>70</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+</Defs>

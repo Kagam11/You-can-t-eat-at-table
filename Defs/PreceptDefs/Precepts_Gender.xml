@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+	<PreceptDef>
+		<defName>YouCantEatAtTable_Gender_Male</defName>
+		<issue>YouCantEatAtTable_Issue_Gender</issue>
+		<label>male</label>
+		<description>Allow male colonist eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>true</enabledForNPCFactions>
+		<displayOrderInIssue>90</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+        <associatedMemes>
+            <li>MaleSupremacy</li>
+        </associatedMemes>
+        <requiredMemes>
+            <li>MaleSupremacy</li>
+        </requiredMemes>
+	</PreceptDef>
+	<PreceptDef>
+		<defName>YouCantEatAtTable_Gender_Female</defName>
+		<issue>YouCantEatAtTable_Issue_Gender</issue>
+		<label>female</label>
+		<description>Allow female colonist eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>true</enabledForNPCFactions>
+		<displayOrderInIssue>80</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+        <associatedMemes>
+            <li>FemaleSupremacy</li>
+        </associatedMemes>
+        <requiredMemes>
+            <li>FemaleSupremacy</li>
+        </requiredMemes>
+	</PreceptDef>
+</Defs>

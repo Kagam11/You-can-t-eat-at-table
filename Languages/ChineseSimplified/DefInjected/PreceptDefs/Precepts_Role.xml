@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <YouCantEatAtTable_Role_Leader.label>领袖</YouCantEatAtTable_Role_Leader.label>
+    <YouCantEatAtTable_Role_Leader.description>允许领袖在餐桌上进食。</YouCantEatAtTable_Role_Leader.description>
+
+    <YouCantEatAtTable_Role_LeaderAndMoralGuide.label>领袖和传道士</YouCantEatAtTable_Role_LeaderAndMoralGuide.label>
+    <YouCantEatAtTable_Role_LeaderAndMoralGuide.description>允许领袖和传道士在餐桌上进食。</YouCantEatAtTable_Role_LeaderAndMoralGuide.description>
+
+    <YouCantEatAtTable_Role_Roles.label>公务员</YouCantEatAtTable_Role_Roles.label>
+    <YouCantEatAtTable_Role_Roles.description>允许具有职位的殖民者在餐桌上进食。</YouCantEatAtTable_Role_Roles.description>
+</LanguageData>

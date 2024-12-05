@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<IssueDef>
+		<defName>YouCantEatAtTable_Issue_Gender</defName>
+		<label>Eat at table by gender</label>
+		<iconPath>Issues/YouCantEatAtTable_Issue_Gender</iconPath>
+	</IssueDef>
+	<IssueDef>
+		<defName>YouCantEatAtTable_Issue_Role</defName>
+		<label>Eat at table by role</label>
+		<iconPath>Issues/YouCantEatAtTable_Issue_Role</iconPath>
+	</IssueDef>
+</Defs>
