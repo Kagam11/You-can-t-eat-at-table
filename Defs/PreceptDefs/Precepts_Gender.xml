@@ -13,9 +13,6 @@
         <associatedMemes>
             <li>MaleSupremacy</li>
         </associatedMemes>
-        <requiredMemes>
-            <li>MaleSupremacy</li>
-        </requiredMemes>
 	</PreceptDef>
 	<PreceptDef>
 		<defName>YouCantEatAtTable_Gender_Female</defName>
@@ -29,8 +26,5 @@
         <associatedMemes>
             <li>FemaleSupremacy</li>
         </associatedMemes>
-        <requiredMemes>
-            <li>FemaleSupremacy</li>
-        </requiredMemes>
 	</PreceptDef>
 </Defs>

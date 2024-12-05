@@ -12,7 +12,6 @@ namespace YouCantEatAtTable
         {
             var harmony = new Harmony("kagami.YouCantEatAtTable");
             harmony.PatchAll();
-
         }
     }
 
@@ -22,30 +21,39 @@ namespace YouCantEatAtTable
 
         public static bool Prefix(Pawn pawn, TargetIndex ingestibleInd, ref Toil __result)
         {
-            if (pawn.IsColonist && pawn.Ideo != null && pawn.Ideo.PreceptsListForReading.Any(x => x.def.ToString().StartsWith("YouCantEatAtTable")))
+            #region Slaves
+            if (pawn.IsPrisoner || pawn.IsSlave)
             {
-                var canEatAtTable = false;
                 var canSlaves = YouCantEatAtTableMod.settings.CanSlavesAndPrisonersEatAtTable;
                 if (canSlaves < 0 || canSlaves > 2) canSlaves = 2;
+                //Log.Warning($"pawn:{pawn.Name}, isSlave:{pawn.IsSlave}, isPrisoner:{pawn.IsPrisoner}");
                 if (pawn.IsSlave || pawn.IsPrisoner)
                 {
                     if (canSlaves == 0)
                     {
+                        //Log.Warning($"pawn:{pawn.Name}, isSlave:{pawn.IsSlave}, isPrisoner:{pawn.IsPrisoner} can eat");
                         return true;
                     }
                     else if (canSlaves == 2)
                     {
+                        //Log.Warning($"pawn:{pawn.Name}, isSlave:{pawn.IsSlave}, isPrisoner:{pawn.IsPrisoner} cannot eat");
                         __result = MakeToil(pawn, ingestibleInd);
                         return false;
                     }
                 }
+            }
+            #endregion
 
+            if (pawn.IsColonist && pawn.Ideo != null && pawn.Ideo.PreceptsListForReading.Any(x => x.def.ToString().StartsWith("YouCantEatAtTable")))
+            {
+                var canEatAtTable = false;
+                
                 #region Gender
                 var gender = pawn.gender;
                 var genderPrecept = pawn.Ideo.PreceptsListForReading.Find(x => x.def.ToString().StartsWith("YouCantEatAtTable_Gender"));
                 if (genderPrecept != null)
                 {
-                    //Log.Message($"def:{nameof(genderPrecept.def)},precept:{nameof(CustomPrecepts.YouCantEatAtTable_Gender_ForbidFemale)},{genderPrecept.def == CustomPrecepts.YouCantEatAtTable_Gender_ForbidFemale}");
+                    //Log.Warning($"pawn:{pawn.Name}, gender:{gender}, precept:{nameof(genderPrecept.def)}");
                     if (genderPrecept.def.ToString() == nameof(CustomPrecepts.YouCantEatAtTable_Gender_Male))
                     {
                         if (gender == Gender.Male)
@@ -65,7 +73,7 @@ namespace YouCantEatAtTable
 
                 #region Role
                 var role = pawn.Ideo.GetRole(pawn);
-                //Log.Message($"pawn:{pawn.Name}, role:{role?.def.ToString() ?? "null"}");
+                //Log.Warning($"pawn:{pawn.Name}, role:{role?.def.ToString() ?? "null"}");
                 bool isLeader;
                 bool isMoralGuide;
                 bool isRole;
@@ -82,12 +90,9 @@ namespace YouCantEatAtTable
                     isRole = role.def.ToString().EndsWith("Specialist");
                 }
                 var rolePrecept = pawn.Ideo.PreceptsListForReading.Find(x => x.def.ToString().StartsWith("YouCantEatAtTable_Role"));
-                //Log.Message($"pawn:{pawn.Name}, isleader:{isLeader}, ismg:{isMoralGuide}, isrole:{isRole}");
+                //Log.Warning($"pawn:{pawn.Name}, isleader:{isLeader}, ismg:{isMoralGuide}, isrole:{isRole}");
                 if (rolePrecept != null)
                 {
-                    //Log.Message($"role of {pawn.Name}: {pawn.Ideo.GetRole(pawn).def},isRole:{rolePrecept.def.ToString() == nameof(CustomPrecepts.YouCantEatAtTable_Role_Roles)}");
-                    //Log.Message($"role of {pawn.Name}: {pawn.Ideo.GetRole(pawn).def},isLeader:{rolePrecept.def.ToString() == nameof(CustomPrecepts.YouCantEatAtTable_Role_Leader)}");
-
                     if (rolePrecept.def.ToString() == nameof(CustomPrecepts.YouCantEatAtTable_Role_Leader))
                     {
                         if (isLeader)
@@ -113,7 +118,7 @@ namespace YouCantEatAtTable
                 #endregion
 
                 #region Carry
-                //Log.Message($"{pawn.Name} can eat at table?{canEatAtTable}");
+                //Log.Warning($"{pawn.Name} can eat at table?{canEatAtTable}");
                 if (canEatAtTable)
                 {
                     return true;
@@ -159,7 +164,7 @@ namespace YouCantEatAtTable
                 actor.pather.StartPath(cell, PathEndMode.OnCell);
                 bool BaseChairValidator(Thing t)
                 {
-                    if (t.def.building == null || !t.def.building.isSittable)
+                    if (t.def.building == null || t.def.building.isSittable)
                     {
                         return false;
                     }
