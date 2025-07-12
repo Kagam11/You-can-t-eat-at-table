@@ -2,6 +2,8 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
-    <exclude>Source</exclude>
+    <exclude>Source\You can't eat at table\.vs</exclude>
+    <exclude>Source\You can't eat at table\MigrationBackup</exclude>
+    <exclude>Source\You can't eat at table\obj</exclude>
   </Excluded>
 </Configuration>
