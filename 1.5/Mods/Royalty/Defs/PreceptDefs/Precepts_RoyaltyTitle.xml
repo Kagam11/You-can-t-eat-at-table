@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+	<PreceptDef>
+		<defName>YouCantEatAtTable_RoyaltyTitle_Freeholder</defName>
+		<issue>YouCantEatAtTable_Issue_RoyaltyTitle</issue>
+		<label>freeholder</label>
+		<description>Allow colonist with title freeholder or above eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>100</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+    <PreceptDef>
+		<defName>YouCantEatAtTable_RoyaltyTitle_Novice</defName>
+		<issue>YouCantEatAtTable_Issue_RoyaltyTitle</issue>
+		<label>novice</label>
+		<description>Allow colonist with title novice or above eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>90</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+    <PreceptDef>
+		<defName>YouCantEatAtTable_RoyaltyTitle_Acolyte</defName>
+		<issue>YouCantEatAtTable_Issue_RoyaltyTitle</issue>
+		<label>acolyte</label>
+		<description>Allow colonist with title acolyte or above eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>80</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+    <PreceptDef>
+		<defName>YouCantEatAtTable_RoyaltyTitle_Knight</defName>
+		<issue>YouCantEatAtTable_Issue_RoyaltyTitle</issue>
+		<label>knight</label>
+		<description>Allow colonist with title knight or above eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>70</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+    <PreceptDef>
+		<defName>YouCantEatAtTable_RoyaltyTitle_Praetor</defName>
+		<issue>YouCantEatAtTable_Issue_RoyaltyTitle</issue>
+		<label>praetor</label>
+		<description>Allow colonist with title praetor or above eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>60</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+    <PreceptDef>
+		<defName>YouCantEatAtTable_RoyaltyTitle_Baron</defName>
+		<issue>YouCantEatAtTable_Issue_RoyaltyTitle</issue>
+		<label>baron</label>
+		<description>Allow colonist with title baron or above eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>50</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+    <PreceptDef>
+		<defName>YouCantEatAtTable_RoyaltyTitle_Archon</defName>
+		<issue>YouCantEatAtTable_Issue_RoyaltyTitle</issue>
+		<label>archon</label>
+		<description>Allow colonist with title archon or above eats at table.</description>
+		<impact>Low</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>40</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+</Defs>

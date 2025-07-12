@@ -4,16 +4,17 @@
 	<author>kagami</author>
 	<supportedVersions>
 		<li>1.5</li>
+        <li>1.6</li>
 	</supportedVersions>
-	<modVersion>1.0.0.1</modVersion>
+	<modVersion>1.0.1.1</modVersion>
 	<description>Eating at table should be a privilege!
     
-This mod adds two precept and one setting to allow you a better control over who can eat at table.
+This mod adds some precept and one setting to allow you a better control over who can eat at table.
 
-Precepts controls by two dimensions: gender and role.
+Precepts controls by different dimensions: gender, role and royal title.
 By default, all colonists can eat at table, once you've added any precept, only colonists allowed by the precept can eat at table.
 
-The setting allows you to control whether prisoners and slaves can eat at table.
+The mod setting allows you to control whether prisoners and slaves can eat at table.
 By default, prisoners and slaves cannot eat at table, you can choose between "Yes", "No", and "Depends on their ideology".
     </description>
 	<packageId>kagami.YouCantEatAtTable</packageId>

@@ -1,0 +1,5 @@
+E:\Games\Steam\steamapps\common\RimWorld\Mods\You can't eat at table\1.5\Assemblies\You can't eat at table.dll
+E:\Games\Steam\steamapps\common\RimWorld\Mods\You can't eat at table\1.5\Source\You can't eat at table\obj\Debug\You can't eat at table.csproj.AssemblyReference.cache
+E:\Games\Steam\steamapps\common\RimWorld\Mods\You can't eat at table\1.5\Source\You can't eat at table\obj\Debug\You can't eat at table.csproj.CoreCompileInputs.cache
+E:\Games\Steam\steamapps\common\RimWorld\Mods\You can't eat at table\1.5\Source\You can't eat at table\obj\Debug\You can'.7258FCC7.Up2Date
+E:\Games\Steam\steamapps\common\RimWorld\Mods\You can't eat at table\1.5\Source\You can't eat at table\obj\Debug\You can't eat at table.dll

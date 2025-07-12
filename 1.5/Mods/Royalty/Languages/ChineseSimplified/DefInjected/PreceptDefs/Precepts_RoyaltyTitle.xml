@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <YouCantEatAtTable_Issue_RoyaltyTitle.label>按头衔上桌吃饭</YouCantEatAtTable_Issue_RoyaltyTitle.label>
+
+    <YouCantEatAtTable_RoyaltyTitle_Freeholder.label>自由民</YouCantEatAtTable_RoyaltyTitle_Freeholder.label>
+    <YouCantEatAtTable_RoyaltyTitle_Freeholder.description>允许拥有自由民及以上头衔的殖民者在餐桌上进食。</YouCantEatAtTable_RoyaltyTitle_Freeholder.description>
+
+    <YouCantEatAtTable_RoyaltyTitle_Novice.label>修士</YouCantEatAtTable_RoyaltyTitle_Novice.label>
+    <YouCantEatAtTable_RoyaltyTitle_Novice.description>允许拥有修士及以上头衔的殖民者在餐桌上进食。</YouCantEatAtTable_RoyaltyTitle_Novice.description>
+
+    <YouCantEatAtTable_RoyaltyTitle_Acolyte.label>扈从</YouCantEatAtTable_RoyaltyTitle_Acolyte.label>
+    <YouCantEatAtTable_RoyaltyTitle_Acolyte.description>允许拥有扈从及以上头衔的殖民者在餐桌上进食。</YouCantEatAtTable_RoyaltyTitle_Acolyte.description>
+
+    <YouCantEatAtTable_RoyaltyTitle_Knight.label>骑士</YouCantEatAtTable_RoyaltyTitle_Knight.label>
+    <YouCantEatAtTable_RoyaltyTitle_Knight.description>允许拥有骑士及以上头衔的殖民者在餐桌上进食。</YouCantEatAtTable_RoyaltyTitle_Knight.description>
+
+    <YouCantEatAtTable_RoyaltyTitle_Praetor.label>法务官</YouCantEatAtTable_RoyaltyTitle_Praetor.label>
+    <YouCantEatAtTable_RoyaltyTitle_Praetor.description>允许拥有法务官及以上头衔的殖民者在餐桌上进食。</YouCantEatAtTable_RoyaltyTitle_Praetor.description>
+
+    <YouCantEatAtTable_RoyaltyTitle_Baron.label>领主</YouCantEatAtTable_RoyaltyTitle_Baron.label>
+    <YouCantEatAtTable_RoyaltyTitle_Baron.description>允许拥有领主及以上头衔的殖民者在餐桌上进食。</YouCantEatAtTable_RoyaltyTitle_Baron.description>
+
+    <YouCantEatAtTable_RoyaltyTitle_Archon.label>总督</YouCantEatAtTable_RoyaltyTitle_Archon.label>
+    <YouCantEatAtTable_RoyaltyTitle_Archon.description>允许拥有总督及以上头衔的殖民者在餐桌上进食。</YouCantEatAtTable_RoyaltyTitle_Archon.description>
+
+</LanguageData>

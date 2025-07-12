@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qt72ndm/S+M=",
+  "success": true,
+  "projectFilePath": "E:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\You can't eat at table\\1.5\\Source\\You can't eat at table\\You can't eat at table.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kagami\\.nuget\\packages\\krafs.rimworld.ref\\1.6.4518\\krafs.rimworld.ref.1.6.4518.nupkg.sha512",
+    "C:\\Users\\Kagami\\.nuget\\packages\\lib.harmony\\2.3.6\\lib.harmony.2.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}
